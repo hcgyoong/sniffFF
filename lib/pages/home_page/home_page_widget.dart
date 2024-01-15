@@ -63,11 +63,19 @@ class _HomePageWidgetState extends State<HomePageWidget> {
           centerTitle: false,
           elevation: 2.0,
         ),
-        body: const SafeArea(
+        body: SafeArea(
           top: true,
           child: Column(
             mainAxisSize: MainAxisSize.max,
-            children: [],
+            children: [
+              Container(
+                width: 100.0,
+                height: 100.0,
+                decoration: const BoxDecoration(
+                  color: Color(0xFFC42E2E),
+                ),
+              ),
+            ],
           ),
         ),
       ),
