@@ -72,7 +72,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                 width: 100.0,
                 height: 100.0,
                 decoration: const BoxDecoration(
-                  color: Colors.black,
+                  color: Color(0xFFC9C9C9),
                 ),
               ),
             ],
